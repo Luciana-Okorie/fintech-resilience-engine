@@ -136,6 +136,5 @@ infrastructure-level, not unit-level.
 > opens → traffic rerouted → incident created → provider recovers →
 > system restores itself.
 
-Fill in `docs/INCIDENT_SIMULATION_REPORT.md` with the real timestamps
-from your own run of `scripts/failure-demo.sh` before posting — a
-report with actual numbers is a stronger artifact than a described one.
+See `docs/INCIDENT_SIMULATION_REPORT.md` for the full incident
+timeline from this run.
