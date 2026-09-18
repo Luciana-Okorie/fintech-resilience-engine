@@ -124,7 +124,7 @@ infrastructure-level, not unit-level.
 
 ## Devlog story arc
 
-> Yesterday I was thinking about payment failures. Today I came across
+> On September 10, 2026, I came across
 > something bigger. The CBN recently warned Nigerian banks and
 > fintechs that a failure or cyber incident at one technology provider
 > could cascade through the interconnected financial system. That made
