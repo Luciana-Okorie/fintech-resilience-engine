@@ -1,6 +1,6 @@
 # Fintech Dependency Risk & Resilience Engine
 
-**Day 12 of 100** — Can a fintech system detect, contain, and survive
+Can a fintech system detect, contain, and survive
 the failure of the external services it depends on?
 
 ## Why this project
