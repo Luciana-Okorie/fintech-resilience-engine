@@ -1,0 +1,45 @@
+{
+  "title": "Fintech Dependency Resilience Overview",
+  "uid": "resilience-overview",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "refresh": "5s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Dependency Health State",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "dependency_health_state", "legendFormat": "{{dependency}}" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dependency Error Rate",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "dependency_error_rate", "legendFormat": "{{dependency}}" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Open Incidents",
+      "type": "stat",
+      "gridPos": { "h": 8, "w": 6, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "open_incidents_total" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Circuit Breaker State",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 18, "x": 6, "y": 8 },
+      "targets": [
+        { "expr": "circuit_breaker_state", "legendFormat": "{{dependency}}" }
+      ]
+    }
+  ]
+}

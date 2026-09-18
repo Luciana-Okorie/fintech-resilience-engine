@@ -1,0 +1,12 @@
+@"
+build-error.log
+.env
+.env.*
+!.env.example
+
+bin/
+tmp/
+*.exe
+*.log
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
